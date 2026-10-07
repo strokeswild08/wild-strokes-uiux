@@ -1,31 +1,34 @@
-# Wild Strokes UI/UX
+# Wild Strokes — Web & Product UI / UX
 
-A responsive, black-and-lime portfolio. Contains 37 project galleries and all 132 supplied images, organized into 7 categories. The files run directly on GitHub Pages; no build, installation, database or API key is required.
+Websites, apps and digital products with clear structure and distinctive visuals.
 
-## Preview
+**[Explore the live UI/UX portfolio →](https://strokeswild08.github.io/wild-strokes-uiux/)**
 
-Open `index.html` in your browser. All image and script paths are relative, so the site also works inside a GitHub repository subpath. The fonts are loaded from Google Fonts, with local system fallbacks. Discord copying works on HTTPS or localhost; otherwise the username is displayed for manual copying.
+## The collection
 
-## Publish using GitHub Pages
+Websites, SaaS and dashboards, mobile apps, e-commerce, game UI, design systems, branding and graphics. Related screens are grouped into project galleries with category filters.
 
-1. Extract the ZIP.
-2. Upload `index.html`, `style.css`, `app.js`, `projects.js`, `.nojekyll`, and the complete `assets` folder to the root of your GitHub repository. Keep the folder structure intact.
-3. Open the repository's **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**, then your main branch and **/(root)**, and save.
-5. GitHub will display the published website address on that page once deployment finishes.
+## Project structure
 
-## Update the site
+A responsive static website built with HTML, CSS and JavaScript. No build step, database or API key is required.
 
-- Edit text, email and branding in `index.html`.
-- Edit colors and responsive layout in `style.css`.
-- Edit projects, category assignments, gallery order and cover images in `projects.js`.
-- Category ordering and interactions are in `app.js`.
-- Images use neutral project filenames; source Downloads files were not modified.
-- Similar screens are grouped inside one gallery. There were no exact duplicate images in the supplied batch.
+| File or folder | Purpose |
+|:--|:--|
+| `index.html` | Content, services, branding and contact |
+| `style.css` | Colors, typography and responsive layout |
+| `app.js` | Category filters, galleries and Discord copying |
+| `projects.js` | Projects, categories, gallery order and image paths |
+| `assets/` | Project images |
+| `.nojekyll` | Static asset handling for GitHub Pages |
 
-Categories: Websites; SaaS & Dashboards; Mobile Apps; E-commerce; Game UI; Design Systems; Branding & Graphics.
+## Maintenance
 
-Email: strokeswild08@gmail.com  
-Discord: wildstrokes23
+Edit project information and gallery ordering in `projects.js`. Keep image paths relative so the portfolio works under its GitHub Pages repository path. Update branding and contact details in `index.html`, and visual styling in `style.css`.
 
-Right-click and image dragging are disabled as requested. Public browser assets remain accessible; this is not copy protection.
+For local preview, serve the repository with a static HTTP server and open `index.html`. Fonts use Google Fonts with system fallbacks. Discord copying works on HTTPS or localhost; otherwise the username is shown for manual copying.
+
+GitHub Pages serves the site from `main`, at the repository root. Right-click and image dragging are disabled in the interface; public assets remain accessible.
+
+## More from Wild Strokes
+
+[View the full portfolio directory](https://github.com/strokeswild08) · [Email](mailto:strokeswild08@gmail.com) · Discord: `wildstrokes23`
